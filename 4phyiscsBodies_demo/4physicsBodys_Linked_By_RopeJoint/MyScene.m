@@ -23,13 +23,14 @@
 
 @implementation MyScene
 
+
 -(void) activateJointRope{
     
     _myRopeJoint = [SKPhysicsJointLimit jointWithBodyA:_mySquare1.physicsBody bodyB:_mySquare2.physicsBody anchorA:_mySquare1.position anchorB:_mySquare2.position];
     
     [self.physicsWorld addJoint:_myRopeJoint];
     
-    _myRopeJoint1 = [SKPhysicsJointLimit jointWithBodyA:_mySquare2.physicsBody bodyB:_mySquare3.physicsBody anchorA:_mySquare2.position anchorB:_mySquare3.position];
+    _myRopeJoint1 = [SKPhysicsJointPin jointWithBodyA:_mySquare2.physicsBody bodyB:_mySquare3.physicsBody anchor:_mySquare2.position];
     
     [self.physicsWorld addJoint:_myRopeJoint1];
     

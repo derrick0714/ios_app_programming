@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9588A98718BBD4D50068EB3C /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9588A98618BBD4D50068EB3C /* bg.jpg */; };
+		9588A99118BBDC420068EB3C /* flame.png in Resources */ = {isa = PBXBuildFile; fileRef = 9588A99018BBDC420068EB3C /* flame.png */; };
 		95DB772918BA7B9B009B4664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DB772818BA7B9B009B4664 /* Foundation.framework */; };
 		95DB772B18BA7B9B009B4664 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DB772A18BA7B9B009B4664 /* CoreGraphics.framework */; };
 		95DB772D18BA7B9B009B4664 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DB772C18BA7B9B009B4664 /* UIKit.framework */; };
@@ -17,13 +19,13 @@
 		95DB773E18BA7B9B009B4664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DB773C18BA7B9B009B4664 /* Main.storyboard */; };
 		95DB774118BA7B9B009B4664 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB774018BA7B9B009B4664 /* ViewController.m */; };
 		95DB774418BA7B9B009B4664 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB774318BA7B9B009B4664 /* MyScene.m */; };
-		95DB774618BA7B9B009B4664 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DB774518BA7B9B009B4664 /* Spaceship.png */; };
 		95DB774818BA7B9B009B4664 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DB774718BA7B9B009B4664 /* Images.xcassets */; };
 		95DB774F18BA7B9B009B4664 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DB774E18BA7B9B009B4664 /* XCTest.framework */; };
 		95DB775018BA7B9B009B4664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DB772818BA7B9B009B4664 /* Foundation.framework */; };
 		95DB775118BA7B9B009B4664 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DB772C18BA7B9B009B4664 /* UIKit.framework */; };
 		95DB775918BA7B9B009B4664 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95DB775718BA7B9B009B4664 /* InfoPlist.strings */; };
 		95DB775B18BA7B9B009B4664 /* dragonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB775A18BA7B9B009B4664 /* dragonTests.m */; };
+		95DB776718BA8B72009B4664 /* dragon-head.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DB776618BA8B72009B4664 /* dragon-head.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9588A98618BBD4D50068EB3C /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		9588A99018BBDC420068EB3C /* flame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flame.png; sourceTree = "<group>"; };
 		95DB772518BA7B9B009B4664 /* dragon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dragon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DB772818BA7B9B009B4664 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		95DB772A18BA7B9B009B4664 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,13 +57,13 @@
 		95DB774018BA7B9B009B4664 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		95DB774218BA7B9B009B4664 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		95DB774318BA7B9B009B4664 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		95DB774518BA7B9B009B4664 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		95DB774718BA7B9B009B4664 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		95DB774D18BA7B9B009B4664 /* dragonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dragonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DB774E18BA7B9B009B4664 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		95DB775618BA7B9B009B4664 /* dragonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dragonTests-Info.plist"; sourceTree = "<group>"; };
 		95DB775818BA7B9B009B4664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		95DB775A18BA7B9B009B4664 /* dragonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dragonTests.m; sourceTree = "<group>"; };
+		95DB776618BA8B72009B4664 /* dragon-head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dragon-head.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		95DB773018BA7B9B009B4664 /* dragon */ = {
 			isa = PBXGroup;
 			children = (
+				95DB776818BA8B97009B4664 /* assets */,
 				95DB773918BA7B9B009B4664 /* AppDelegate.h */,
 				95DB773A18BA7B9B009B4664 /* AppDelegate.m */,
 				95DB773C18BA7B9B009B4664 /* Main.storyboard */,
@@ -128,7 +133,6 @@
 				95DB774018BA7B9B009B4664 /* ViewController.m */,
 				95DB774218BA7B9B009B4664 /* MyScene.h */,
 				95DB774318BA7B9B009B4664 /* MyScene.m */,
-				95DB774518BA7B9B009B4664 /* Spaceship.png */,
 				95DB774718BA7B9B009B4664 /* Images.xcassets */,
 				95DB773118BA7B9B009B4664 /* Supporting Files */,
 			);
@@ -162,6 +166,24 @@
 				95DB775718BA7B9B009B4664 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95DB776818BA8B97009B4664 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				95DB776918BA8BA8009B4664 /* img */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		95DB776918BA8BA8009B4664 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				9588A98618BBD4D50068EB3C /* bg.jpg */,
+				9588A99018BBDC420068EB3C /* flame.png */,
+				95DB776618BA8B72009B4664 /* dragon-head.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				95DB773518BA7B9B009B4664 /* InfoPlist.strings in Resources */,
+				95DB776718BA8B72009B4664 /* dragon-head.png in Resources */,
 				95DB774818BA7B9B009B4664 /* Images.xcassets in Resources */,
-				95DB774618BA7B9B009B4664 /* Spaceship.png in Resources */,
+				9588A99118BBDC420068EB3C /* flame.png in Resources */,
+				9588A98718BBD4D50068EB3C /* bg.jpg in Resources */,
 				95DB773E18BA7B9B009B4664 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +500,7 @@
 				95DB776018BA7B9B009B4664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95DB776118BA7B9B009B4664 /* Build configuration list for PBXNativeTarget "dragonTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +509,7 @@
 				95DB776318BA7B9B009B4664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

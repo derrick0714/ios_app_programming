@@ -395,8 +395,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Prefix.pch";
 				INFOPLIST_FILE = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,8 +411,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Prefix.pch";
 				INFOPLIST_FILE = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -476,6 +480,7 @@
 				D56006FB18B2896800D0C342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D56006FC18B2896800D0C342 /* Build configuration list for PBXNativeTarget "4physicsBodys_Linked_By_RopeJointTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +489,7 @@
 				D56006FE18B2896800D0C342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
